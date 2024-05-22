@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/signup.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html"><img src="imgs/logo.svg" alt="Pdfify"></a>
+
+    </header>
+
+    <div id="form-container">
+
+        <p class="p-black-36-b">Reset passwrod</p>
+
+        <form action="">
+            <input type="text" id="userName" placeholder="Email">
+            <span>  
+                <input type="password"  id="password" placeholder="Password">
+                <img src="imgs/eye.svg" alt="eye" id="eye"  onclick="showHidePass()">
+            </span>
+
+        </form>
+        <button class="btn-primary">Reset password</button>
+
+
+    </div>
+
+    <script>
+        function showHidePass() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

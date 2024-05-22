@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="left-side">
+                <a href="index.html"><img src="imgs/logo.svg" alt="Pdfify"></a>
+                <nav>
+                    <li>
+                        <a href="index.html" >Home</a>
+                    </li>
+                    <li>
+                        <a href="howitworks.html">How it works</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html" class="selected">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="right-side">
+               <a href="login.html"> <button class="btn-header">Sign in</button></a>
+            </div>
+
+            <div class="mobile-design">
+                <img src="imgs/menu_alt.svg" alt="Menu" onclick="showHeaderMenu()">
+            </div>
+
+            <div class="mobile-design-menu-popup">
+                <div class="mobile-header">
+                    <div class="mobile-left-side">
+                        <a href="/index.html"><img src="imgs/logo.svg" alt="Pdfify"></a>
+                    </div>
+
+                    <div class="mobile-right-side">
+                        <img src="imgs/close_small.svg" alt="Menu" onclick="closeHeaderMenu()">
+                    </div>
+                </div>
+
+                <div class="mobile-menu-container">
+                    <nav>
+                        <li>
+                            <a href="index.html" class="selected">Home</a>
+                        </li>
+                        <li>
+                            <a href="howitworks.html">How it works</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </nav>
+
+              <a href="login.html"> <button class="btn-secondary">
+                        Sign in
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="payment">
+
+        <div id="payment-left-side">
+            <div id="paymentDetails">
+                <span id="pd1">
+                    <p class="p-black-24">Enter your payment details</p>
+                    <p class="p-white-14">secure payment</p>
+                </span>
+                <div class="detailBox">
+                    <p class="p-dark-24">Total Price</p>
+                    <span>
+                        <p class="txtOnRed">90% off</p>
+                        <p class="p-black-24">€0.50</p>
+                    </span>
+                </div>
+                <div class="detailBox">
+                    <p class="p-dark-24">Secure Payment</p>
+                    <div>
+                        <img src="imgs/payments.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div id="paymentCredentials">
+
+
+                <form>
+                    <label for="fname" class="p-dark-14-b">CARDHOLDER NAME</label>
+                    <input type="text" id="fname" placeholder="Cardholder name">
+                    <label for="cardNo" class="p-dark-14-b">CARD NUMBER</label>
+                    <input type="text" id="cardNo"  size="20" name="cardNo" placeholder="Card number"  required >
+                    <div id="two-input">
+
+                        <label for="expDate" class="p-dark-14-b">EXPIRATION DATE:</label>
+                        <label for="code" class="p-dark-14-b">SECURITY CODE</label>
+
+                        <input onfocus="(this.type = 'month')" type="text" id="expDate" name="expDate" placeholder="Expiration date">
+
+                        <input type="password" id="code" name="code" placeholder="Security code">
+                    </div>
+                    
+
+
+                </form>
+
+                <span id="agreeTerms">
+                    <label class="check-label">I have read and I agree to the  <a href="#" >tearms and conditions</a> 
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                </label>
+
+                </span>
+                <p class="p-dark-14">
+                    By validating the information given above, I confirm my wish to order an unlimited access with trial offer for a monthly subscription to Convert.tel, subscription for an indefinite period at a preferential price of 0.50€ incl VAT for 48 hours, then at
+                    the price of 29.40€ per month thereafter. Beyond the trial offer and without my cancellation during this period, I authorise the website Convert.tel to collect each month on the anniversary date the amount of the subscription on the
+                    credit card used for payment. I will access my account after my registration.
+                </p>
+
+
+
+                <button id="payBtn" class="btn-primary">
+                    <img src="imgs/payment.svg" alt="">
+                    Pay now
+                </button>
+            </div>
+
+            <div id="testimonial-container">
+                <p class="p-dark-18-b">
+                    TESTIMONIALS
+                </p>
+                <div id="testimonialsPayment">
+                    <div class="testimonial">
+
+                        <div class="profile">
+                            <img src="imgs/pic-22.png" alt="">
+                            <div class="name">
+                                <p class="p-dark-24">Kenneth Allen</p>
+                                <div class="stars">
+                                    <img src="imgs/Star.svg" alt="">
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p-grey-16">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                    </div>
+                    <div class="testimonial">
+
+                        <div class="profile">
+                            <img src="imgs/pic-22.png" alt="">
+                            <div class="name">
+                                <p class="p-dark-24">Kenneth Allen</p>
+                                <div class="stars">
+                                    <img src="imgs/Star.svg" alt="">
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p-grey-16">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                    </div>
+                    <div class="testimonial">
+
+                        <div class="profile">
+                            <img src="imgs/pic-22.png" alt="">
+                            <div class="name">
+                                <p class="p-dark-24">Kenneth Allen</p>
+                                <div class="stars">
+                                    <img src="imgs/Star.svg" alt="">
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p-grey-16">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                    </div>
+                    <div class="testimonial">
+
+                        <div class="profile">
+                            <img src="imgs/pic-22.png" alt="">
+                            <div class="name">
+                                <p class="p-dark-24">Kenneth Allen</p>
+                                <div class="stars">
+                                    <img src="imgs/Star.svg" alt="">
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+
+                                    <img src="imgs/Star.svg" alt="">
+                                    <img src="imgs/star-grey.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p-grey-16">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="payLeft">
+
+            <div class="aboutUrPayment">
+                <p class="p-dark-18-b">YOUR ORDER</p>
+                <p class="p-grey-18">File conversion and 48h trial to the subscription</p>
+            </div>
+            <div class="aboutUrPayment">
+                <p class="p-dark-18-b">YOUR SUBSCRIPTION</p>
+                <p class="p-grey-18">Convert your files in unlimited 300 supported formats and 25 000 possible combinations for 29,40€ ttc per month.</p>
+            </div>
+            <div class="aboutUrPayment">
+                <p class="p-dark-18-b">YOUR ADDRESS</p>
+                <p class="p-grey-18">giorgimatsukatov@gmail.com</p>
+            </div>
+            <div id="greyCard" class="pad-24 greyBg">
+                <p class="p-grey-18">*At the end of the 48H and without cancellation, the offer will be renewed automatically in a subscription without commitment at the price of 29.40 € per month.</p>
+            </div>
+            <div class="p-pad-24-s">
+                <p class="p-grey-14-i">We offer an online file conversion service. A simple, easy to use and accessible online from anywhere in the world via a simple internet connection from a computer, mobile or tablet for 29.40 € incl. VAT per month. Whether for business
+                    or for your private life, Convert.tel allows you to convert any type of file whether it is an audio, video, word or pdf document, Convert.tel offers you up to 300 different file conversions. Our advisers are at your disposal, by e-mail,
+                    chat or telephone to answer all your questions and guide you through the services offered by Convert.tel.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footerFloor">
+        <div id="floor">
+            <p class="p-white-16">Copyright © 2021 pdfify - made with ❤️ for you.</p>
+
+            <span>
+                <a href="#" >Terms & Conditions</a>
+                <a href="#" >Legal notice</a>
+                <a href="#">Cookie policy</a>
+                <a href="#">Personal data</a>
+                <a href="#">Guarantees</a>
+            </span>
+
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="js/general.js"></script>
+
+
+ 
+
+      <script>
+          document.getElementById('cardNo').addEventListener('input', function(e) {
+            e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
+            });
+      </script>
+
+   
+
+</body>
+
+</html>

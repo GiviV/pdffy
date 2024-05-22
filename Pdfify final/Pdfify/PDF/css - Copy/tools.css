@@ -1,0 +1,10 @@
+
+.double-title {
+    text-align: center;
+    display: grid;
+    gap:24px
+}
+
+.marg-80 {
+    margin-top: 80px;
+}

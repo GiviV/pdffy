@@ -1,0 +1,85 @@
+
+
+/* -------------------- Section Header Start -------------------- */
+
+.section-header {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 80px;
+    grid-template-columns: 1fr auto;
+    grid-gap: 80px;
+    margin-bottom: 52px;
+}
+
+.section-header .left-side {
+    margin-top: 40px;
+}
+
+.section-header .left-side h1 {
+    color: #062336;
+    font-size: 64px;
+    margin-bottom: 8px;
+}
+
+.section-header .right-side img {
+    height: auto;
+    width: 100%;
+}
+
+.section-header .left-side .p-afterh {
+    margin-bottom: 40px;
+}
+
+.section-header .buttons-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+    justify-content: start;
+    align-items: center;
+}
+
+
+/* -------------------- Section Header End -------------------- */
+
+
+/* -------------------- Section Counter Start -------------------- */
+
+.section-counter {
+    background-color: #EFF6FB;
+    height: 200px;
+    margin-bottom: 80px;
+}
+
+.section-counter-container {
+    position: relative;
+}
+
+.section-counter .counter {
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 0.07em;
+    color: #374F5E;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-counter p {
+    position: absolute;
+    top: 134px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #1982C4;
+    font-size: 18px;
+}
+
+
+/* -------------------- Section Counter End -------------------- */
+
+
+/* -------------------- Section PDF Tools Start -------------------- */
+
+.section-pdftools {}
+
+.section-pdftools .pdftools-item {}

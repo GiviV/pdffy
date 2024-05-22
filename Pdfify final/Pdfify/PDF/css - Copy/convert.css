@@ -1,0 +1,266 @@
+
+/*--------------------  CONVERT  -------------------------*/
+
+#convert-choose {
+    padding: 20px;
+    background-color:#1982C4;
+    margin-top: 52px;
+ }
+ 
+ #convertInner {
+     background-color: #1879B6;
+     background-repeat: no-repeat;
+          
+     background-size: cover;
+ 
+     border-radius: 8px;;
+     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23216D9CFF' stroke-width='3' stroke-dasharray='3%2c10' stroke-dashoffset='100' stroke-linecap='square'/%3e%3c/svg%3e");
+ 
+     padding: 81px 0;
+     display: grid;
+     justify-content: center;
+     justify-items: center;
+     gap:32px
+ }
+ 
+ 
+ 
+ #convertOpt{
+     /* padding: 20px 0px 20px 24px; */
+     display: flex;
+     /* height: 60px; */
+     gap:8px;
+     align-items: center;
+     padding-left: 24px;
+ 
+     background: #FBFBFB;
+ border-radius: 4px;
+ }
+ 
+ #convertOpt div {
+     padding: 19px 20px 16px 20px;
+     border-top-right-radius:4px;
+     border-bottom-right-radius:4px;
+     border-left:1px solid rgba(6, 35, 54, 0.1);
+     margin-left: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ 
+ 
+ #convertOpt div:hover {
+     background: #dfdddd;
+     transition: 0.2s;
+ }
+ 
+ #convertOpt div label {
+     cursor: pointer;
+ }
+ #file {
+     display: none;
+ }
+ 
+ 
+ #convertInner-3 {
+     background:#60737E;
+     background-repeat: no-repeat;
+             
+     background-size: cover;
+ 
+     border-radius: 8px;;
+     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23216D9CFF' stroke-width='3' stroke-dasharray='3%2c10' stroke-dashoffset='100' stroke-linecap='square'/%3e%3c/svg%3e");
+ 
+     padding: 81px 0;
+     display: grid;
+     justify-content: center;
+     justify-items: center;
+     gap:32px
+ }
+ 
+ #convert-choose-3 {
+     padding: 20px;
+     background-color:#697B86;
+     margin-top: 52px;
+  
+ 
+ }
+
+ 
+/*-------------------  How it works start  ----------------------*/
+
+
+#section_3{
+    margin-top: 120px;
+}
+
+#explain {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   gap:52px
+
+}
+
+
+#explain div {
+    padding: 32px 24px;
+    gap: 16px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    background-image: url(imgs/boder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#explain div img {
+    margin-bottom: 8px;;
+}
+
+/*-----------------  How it works end  ---------------------------*/
+
+
+/*-------------------  Why choose us start  ---------------------*/
+
+#section_2 {
+    margin-top: 120px;;
+    display: grid;
+}
+
+#reasons {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    column-gap: 125px;
+    row-gap: 52px;
+    margin-top: 52px;
+}
+
+#reasons div {
+    display: grid;
+    
+    align-content: flex-start;
+    gap:16px
+}
+#reasons img {
+    margin-bottom: 8px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+/*-------------------  Why choose us end  ---------------------*/
+
+
+
+/*------------------------  Banner Start  -----------------------------*/
+
+
+#banner {
+    height: 320px;
+    background:#F8F8F9;
+    width: 100%;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 453fr 572fr;
+    padding: 17px 40px 0 80px;
+    gap:55px
+
+}
+
+#banner div {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin-top: 24px;
+}
+
+#banner div button {
+    margin-top: 16px;
+}
+
+/*------------------------  Banner end  -----------------------------*/
+
+
+.double-title {
+    text-align: center;
+    display: grid;
+    gap:24px
+}
+
+.marg-80 {
+    margin-top: 80px;
+}
+
+/* -------------------------  testimonials  ---------------------------- */
+/*------------------  Testimonials Start -------------------------*/
+
+#section_4 {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 120px;;
+}
+
+.scrollHeading {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.scrollHeading div{
+    display: flex;
+    gap:12px
+} 
+
+
+#testimonials {
+    display: flex;  
+    gap:24px ;
+    margin-top: 52px;;
+}
+
+.testimonial {
+    padding: 32px 52px; 
+    background: #F8F8F9;    
+    border-radius: 6px;
+    display: grid;
+    gap:16px
+}
+
+.profile {
+    display: flex;
+    gap:24px;
+    align-items: center;
+    
+}
+
+
+.name {
+    display: grid;
+    gap:8px;
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+
+}
+.stars {
+    display: flex;
+    gap:4px
+}
+
+.stars img {
+    width: 19px;
+    height: 19px;
+    
+}
+
+/*-----------------------  Testimonials end  -------------------------*/
+
+ 
+ 

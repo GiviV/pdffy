@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="css/signup.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+
+        <a href="index.html"><img src="imgs/logo.svg" alt="Pdfify" id="login-logo"></a>
+
+
+
+    </header>
+
+    <div id="form-container">
+
+        <p class="p-black-36-b">Log in</p>
+
+        <form action="">
+            <input type="text" id="userName" placeholder="Email">
+            <span>  
+                <input type="password"  id="password" placeholder="Password">
+                <img src="imgs/eye.svg" alt="eye" id="eye"  onclick="showHidePass()">
+            </span>
+            <a href="reset.html">Forgot Password?</a>
+
+        </form>
+        <button class="btn-primary">Sign in</button>
+
+        <div id="signup-floor">
+            <p class="p-grey-18">
+                By creating an account, you agree to our <a href="privacy.html"> Privacy Policy</a> and our <a href="privacy.html"> Terms & Conditions.</a>
+
+            </p>
+
+            <hr>
+
+            <p class="p-grey-18">Don't have an account? <a href="signup.html"> Sign up</a></p>
+        </div>
+
+    </div>
+
+    <script>
+        function showHidePass() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

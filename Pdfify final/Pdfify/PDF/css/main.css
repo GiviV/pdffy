@@ -1,0 +1,28 @@
+
+
+
+
+#section_6 {
+    height: 320px;
+    background:#F8F8F9;
+    width: 100%;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 453fr 572fr;
+    padding: 17px 40px 0 80px;
+    gap:55px
+
+}
+
+#section_6 div {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin-top: 24px;
+}
+
+#section_6 div button {
+    margin-top: 16px;
+}
+
+

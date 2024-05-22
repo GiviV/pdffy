@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding-top: 24px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 461px;
+    gap: 52px;
+    margin: 120px auto 0 auto;
+    padding-bottom: 64px;
+}
+
+#form-container form {
+    display: grid;
+    gap: 24px;
+}
+
+#form-container form a {
+    color: #1982C4;
+    margin-top: -12px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+}
+
+#form-container form input {
+    padding: 16px 24px 16px 70px;
+    border-radius: 6px;
+    background-color: #F7F8F9;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #062336;
+}
+
+#form-container form input:focus {
+    /* border:1px  solid #8AC926; */
+    background-color: #FBFDF8;
+    outline: 1px solid #8AC926;
+}
+
+#form-container form input::placeholder {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(6, 35, 54, 0.4);
+}
+
+#signup-floor {
+    display: grid;
+    gap: 40px;
+    margin-top: -20px;
+}
+
+#signup-floor a {
+    color: #1982C4;
+}
+
+#signup-floor hr {
+    border: 1px solid rgba(6, 35, 54, 0.1);
+}
+
+#userName {
+    background-image: "";
+}
+
+#password {
+    background-image: url(../imgs/password.svg);
+    background-position: 24px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#form-container form span {
+    display: flex;
+}
+
+#userName {
+    background-image: url(../imgs/mail-1.svg);
+    background-position: 24px;
+    background-repeat: no-repeat;
+}
+
+#userName:focus {
+    background-image: url(../imgs/mail-green.svg);
+}
+
+#password:focus {
+    background-image: url(../imgs/password-green.svg);
+}
+
+#eye {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-left: 415px;
+}

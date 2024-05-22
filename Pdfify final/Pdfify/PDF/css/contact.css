@@ -1,0 +1,94 @@
+/*------------------  CONTACT -----------------*/
+
+#contactSection {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 52px;
+    margin-top: 80px;
+}
+
+#contactus-ill {
+    max-width: 637px;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1020px) {
+    #contactSection {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+    }
+}
+
+#contactTitle {
+    display: grid;
+    gap: 16px;
+}
+
+#contactSection form {
+    display: grid;
+    gap: 24px;
+    margin-top: 52px;
+}
+
+#contactSection form input {
+    padding: 16px 24px 16px 70px;
+    background-color: #F7F8F9;
+    border-radius: 6px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    background-image: url(../imgs/user.svg);
+    background-repeat: no-repeat;
+    background-position: 24px;
+}
+
+#urEmail {
+    background-image: url(../imgs/mail.svg) !important;
+}
+
+#contactSection form input::placeholder {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(6, 35, 54, 0.4);
+}
+
+#contactSection textarea {
+    padding: 16px 24px;
+    background: #F7F8F9;
+    border-radius: 6px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    height: 149px;
+    line-height: 26px;
+}
+
+#contactSection textarea::placeholder {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(6, 35, 54, 0.4);
+}
+
+#urName {
+    background-image: url(imgs/user.svg);
+}
+
+#urEmail {
+    background-image: url(imgs/inputMail.svg)
+}
+
+#submitMsg {
+    max-width: 162px;
+    margin-top: 8px;
+    justify-self: end;
+}

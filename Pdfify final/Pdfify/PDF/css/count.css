@@ -1,0 +1,100 @@
+.timer--clock {
+    overflow: hidden;
+    height: 78px;
+}
+
+.timer--clock .clock-display-grp {
+    width: 100%;
+    position: relative;
+    z-index: 32;
+}
+
+.timer--clock .clock-display-grp .number-grp {
+    width: auto;
+    display: block;
+    height: 156px;
+    float: left;
+    overflow: hidden;
+}
+
+.timer--clock .clock-display-grp .number-grp .number-grp-wrp {
+    width: 100%;
+    position: relative;
+}
+
+.timer--clock .clock-display-grp .number-grp .number-grp-wrp .num {
+    width: 100%;
+    position: relative;
+    height: 156px;
+}
+
+.timer--clock .clock-display-grp .number-grp .number-grp-wrp .num p {
+    width: auto;
+    display: table;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.07em;
+    color: #374F5E;
+}
+
+@media only screen and (max-width:860px) {
+    .p-dark-64 {
+        font-size: 36px;
+    }
+    .timer--clock .clock-display-grp .number-grp .number-grp-wrp .num p {
+        width: auto;
+        display: table;
+        font-size: 36px;
+    }
+    .timer--clock .clock-display-grp .number-grp {
+        width: auto;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .timer--clock .clock-display-grp .number-grp .number-grp-wrp {
+        width: 100%;
+        position: relative;
+    }
+    .timer--clock .clock-display-grp .number-grp .number-grp-wrp .num {
+        width: 100%;
+        position: relative;
+    }
+}
+
+
+/*
+.reload {
+  width: 125px;
+  height: 14px;
+  position: absolute;
+  bottom: 50vh;
+  left: 50%;
+  margin-left: -62.5px;
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+.reload:hover svg path {
+  fill: #666666;
+}
+.reload:hover p {
+  color: #666666;
+}
+.reload svg {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 10px;
+}
+.reload p {
+  color: #2b2b2b;
+  font-size: 12px;
+  float: left;
+  line-height: 11px;
+}
+*/

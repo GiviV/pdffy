@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html"> <img src="img/logo.svg" alt=""></a>
+        <nav id="desktop-nav">
+
+            <a href="#">
+                <li class="active-nav">
+                    <img src="img/home.svg" alt="" class="regular-nav-icon">
+                    <img src="img/home-active.svg" alt="" class="active-nav-icon">
+                    <p href="#">Home</p>
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="">
+                    <img src="img/compress.svg" alt="" class="regular-nav-icon">
+                    <img src="img/compress-active.svg" alt="" class="active-nav-icon">
+                    <p href="#">Compress</p>
+                </li>
+            </a>
+
+            <a href="#">
+                <li>
+                    <img src="img/split.svg" alt="" class="regular-nav-icon">
+                    <img src="img/split-active.svg" alt="" class="active-nav-icon">
+                    <p href="#">Split</p>
+                </li>
+
+            </a>
+
+            <a href="">
+                <li>
+                    <img src="img/tools.svg" alt="" class="regular-nav-icon">
+                    <img src="img/tools-active.svg" alt="" class="active-nav-icon">
+                    <p>All Tools</p>
+                </li>
+
+            </a>
+            <a href="#">
+                <li class="">
+                    <img src="img/table.svg" alt="" class="regular-nav-icon">
+                    <img src="img/table-active.svg" alt="" class="active-nav-icon">
+                    <p href="#">Documents</p>
+                </li>
+
+            </a>
+        </nav>
+
+        <div class="header-user">
+            <div class="header-user-container" onclick="checkHeader()">
+                <img src="img/user-img.png" alt="User Profile">
+                <img src="img/arrow-down.svg" alt="User Profile">
+            </div>
+
+            <div class="custom-dropdown-popup" id="header-user-dropdown">
+                <div class="cdp-item">
+                    <img src="img/user.svg" alt="Profile page">
+                    <p class="p-black-18">Profile page</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/chekcbox.svg" alt="Invoices">
+                    <p class="p-black-18">Invoices</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/password.svg" alt="Password">
+                    <p class="p-black-18">Password</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/card.svg" alt="Plan">
+                    <p class="p-black-18">Plan</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/mail-new.svg" alt="Email notifications">
+                    <p class="p-black-18">Email notifications</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/table.svg" alt="My documents">
+                    <p class="p-black-18">My documents</p>
+                </div>
+
+                <div class="cdp-item">
+                    <img src="img/log_out.svg" alt="Log out">
+                    <p class="p-black-18">Log out</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-design">
+            <img src="img/menu-alt.svg" alt="Menu" onclick="showHeaderMenu()">
+        </div>
+
+        <div class="mobile-design-menu-popup">
+            <div class="mobile-header">
+                <div class="mobile-left-side">
+                    <a href="/index.html"><img src="img/logo.svg" alt="Pdfify"></a>
+                </div>
+
+                <div class="mobile-right-side">
+                    <img src="img/close_small.svg" alt="Menu" onclick="closeHeaderMenu()">
+                </div>
+            </div>
+
+            <div class="mobile-menu-container">
+                <nav id="mobile-nav">
+                    <li>
+                        <img src="img/home.svg" alt="" class="regular-nav-icon">
+                        <img src="img/home-active.svg" alt="" class="active-nav-icon">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="">
+                        <img src="img/compress.svg" alt="" class="regular-nav-icon">
+                        <img src="img/compress-active.svg" alt="" class="active-nav-icon">
+                        <a href="#">Compress</a>
+                    </li>
+
+
+                    <li>
+                        <img src="img/split.svg" alt="" class="regular-nav-icon">
+                        <img src="img/split-active.svg" alt="" class="active-nav-icon">
+                        <a href="#">Split</a>
+                    </li>
+                    <li>
+                        <img src="img/tools.svg" alt="" class="regular-nav-icon">
+                        <img src="img/tools-active.svg" alt="" class="active-nav-icon">
+                        <a href="#">All Tools</a>
+                    </li>
+                    <li class="">
+                        <img src="img/table.svg" alt="" class="regular-nav-icon">
+                        <img src="img/table-active.svg" alt="" class="active-nav-icon">
+                        <a href="#">Documents</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+
+        <div class="user-side">
+            <div class="user-img">
+                <img src="img/avatar.png" alt="" class="profile-img">
+                <button id="edit">
+                      <img src="img/edit.svg" alt="">
+                  </button>
+            </div>
+
+            <div class="profile-choose">
+                <li>
+                    <img src="img/user-active.svg" alt="" class="prof-active-icon">
+                    <img src="img/user.svg" alt="" class="prof-regular-icon">
+                    <p class="p-grey-18">Profile</p>
+                </li>
+                <li>
+                    <img src="img/password-active.svg" alt="" class="prof-active-icon">
+                    <img src="img/password.svg" alt="" class="prof-regular-icon">
+                    <p class="p-grey-18">Password</p>
+                </li>
+                <li>
+                    <img src="img/card-active.svg" alt="" class="prof-active-icon">
+                    <img src="img/card.svg" alt="" class="prof-regular-icon">
+                    <p class="p-grey-18">Plan</p>
+                </li>
+                <li>
+                    <img src="img/checkbox-active.svg" alt="" class="prof-active-icon">
+                    <img src="img/chekcbox.svg" alt="" class="prof-regular-icon">
+                    <p class="p-grey-18">Invoices</p>
+                </li>
+                <li class="active-prof-li">
+                    <img src="img/mail-active.svg" alt="" class="prof-active-icon">
+                    <img src="img/mail.svg" alt="" class="prof-regular-icon">
+                    <p class="p-grey-18">Email notifications</p>
+                </li>
+
+            </div>
+
+        </div>
+
+        <div class="inputs">
+            <p class="p-black-36-b">
+                Email notifications
+            </p>
+
+
+            <div class="grey-bg">
+                <p class="p-dark-24-b">Email notifications</p>
+                <p class="p-grey-18">No longer wish to receive promotional emails from us? You can do so here.</p>
+                <div><button class="btn-primary">Unsubscribe</button></div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="popup-underlay">
+        <div class="popup-underlay-container">
+            <div class="popup popup-delete">
+                <section class="popup-header">
+                    <h3>DELETE FILE</h3>
+                </section>
+                <section class="popup-main-content">
+                    <p class="p-black-18">
+                        Are you sure you want to delete the file?
+                    </p>
+                </section>
+                <section class="popup-buttons-section">
+                    <button class="btn-outlined" onclick="hidepopup('.popup-delete')">cancel</button>
+                    <button class="btn-primary btn-red">Yes, Delete</button>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-wutisopeli hidepopup" onclick="hidewutisopeli();">
+        <div class="left-side">
+            <img src="img/success.svg" alt="Success notification">
+            <p class="p-black-16">You have successfully unsubscribed from our email</p>
+        </div>
+        <div class="right-sidee">
+            <img src="img/close_small.svg" alt="Close">
+        </div>
+    </div>
+
+    <script src="js/general.js"></script>
+</body>
+
+</html>

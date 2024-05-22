@@ -1,0 +1,645 @@
+/*------------------- GIVI ADDED-----------------*/
+
+#convert-choose {
+    background-color: #1982C4;
+}
+
+#convertInner {
+    background-color: #1879B6;
+}
+
+.convert-choose {
+    padding: 20px;
+    margin-top: 52px;
+}
+
+.convertInner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23216D9CFF' stroke-width='3' stroke-dasharray='3%2c10' stroke-dashoffset='100' stroke-linecap='square'/%3e%3c/svg%3e");
+    padding: 81px 0;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 32px
+}
+
+#convert-choose-1 {
+    padding: 20px;
+    background-color: #1982C4;
+}
+
+#convertInner-1 {
+    background-color: #1879B6;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23216D9CFF' stroke-width='4' stroke-dasharray='3%2c 10' stroke-dashoffset='19' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+#convert-choose-2 {
+    padding: 20px;
+    background-color: #697B86;
+    margin-top: 52px;
+}
+
+#convertInner-2 {
+    background-color: #60737E;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23536974FF' stroke-width='3' stroke-dasharray='3%2c 10' stroke-dashoffset='16' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+#convert-choose-3 {
+    margin-top: 52px;
+    background: #F8F8F9;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 140px;
+    padding: 64px 90px;
+}
+
+#file-for-convert {
+    display: grid;
+    flex-direction: column;
+    gap: 25px;
+    justify-items: center;
+    justify-content: bottom;
+    align-content: start;
+    align-self: center;
+}
+
+#file-for-convert span {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.inputs-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    row-gap: 60px;
+    width: 100%;
+}
+
+#single-form {
+    grid-template-columns: 1fr;
+}
+
+#convert-inputs {
+    display: grid;
+    gap: 78px
+}
+
+#fileFormat option {
+    height: 200px;
+}
+
+#convert-inputs button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    padding: 18px 0;
+    color: #FFFFFF;
+}
+
+#convert-choose-3 form li {
+    display: grid;
+    gap: 16px;
+}
+
+#convert-choose-3 form span {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
+
+#convert-choose-3 label {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #697B86;
+}
+
+#fileFormat {
+    padding: 16px 62px 16px 70px;
+    background-image: url(../imgs/file-format.svg), url(../imgs/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 24px, 90%;
+    -webkit-appearance: 20px;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #697B86;
+}
+
+#sendTo {
+    padding: 16px 24px 16px 70px;
+    background-image: url(../imgs/mail.svg);
+    background-position: 24px;
+    background-repeat: no-repeat;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #062336;
+    width: 100%;
+}
+
+#sendTo::placeholder {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #697B86;
+}
+
+#convertOpt {
+    padding: 24px;
+    background: #FBFBFB;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    padding: 19px 20px 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px
+}
+
+#convertOpt:hover {
+    background-color: #e7e7e7;
+}
+
+#convertOpt:hover {
+    background-color: #dfdddd;
+    transition: 0.2s;
+}
+
+#convertOpt label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#file {
+    display: none;
+}
+
+#progress-converting {
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+}
+
+.myprogress {
+    position: relative;
+    height: 58px;
+    background-color: #ecf0f1;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+
+/* default styling for progress bar */
+
+.myprogress .pro-bar {
+    width: 75%;
+    border-radius: 6px;
+    height: 100%;
+    background-color: #FFCA3A;
+    background-image: url(../imgs/progress-bg.svg);
+    transition: width 2s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    position: relative;
+
+}
+
+#percentage {
+    position: absolute;
+    top:-30px;
+    right: 0;
+    gap:4px;
+    display: grid;
+    justify-items: center;
+    transform: translateX(15.725px);
+}
+
+
+
+
+.myprogress:nth-child(1)::after {
+    left: 441px;
+}
+
+.myprogress-2 {
+    position: relative;
+    height: 58px;
+    background-color: #ecf0f1;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+
+/* default styling for progress bar */
+
+.myprogress-2 .pro-bar {
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+    background-image: url(../imgs/completed-bg.svg);
+}
+
+.myprogress-2 .pro-bar {
+    width: 100%;
+    margin-top: -20px
+}
+
+.myprogress-2::before {
+    position: relative;
+    content: "100%";
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px;
+    top: -35px;
+    left: 100%;
+    border-radius: 5px;
+    margin-left: -40px;
+    color: #697B86;
+}
+
+.myprogress-2::after {
+    position: relative;
+    content: "";
+    height: 10px;
+    background: rgba(255, 0, 0, 0);
+    top: -60px;
+    left: 100%;
+    margin-left: -10px;
+    border-left: 4px solid rgba(255, 0, 0, 0);
+    border-right: 4px solid rgba(255, 0, 0, 0);
+    border-top: 4px solid #96A3AB;
+}
+
+.myprogress-2::after {
+    left: 100%;
+}
+
+.myprogress-3 {
+    position: relative;
+    height: 58px;
+    background-color: #74AE17;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#download-btn {
+    width: 100%;
+    background-color: #74AE17;
+    padding: 18px 0;
+    background: #74AE17;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#download-btn:hover {
+    background-color: #608f14;
+}
+
+.myprogress-3:nth-child(1)::after {
+    left: 441px;
+}
+
+@media only screen and (max-width:1200px) {
+    #convert-choose-3 {
+        margin-top: 52px;
+        background: #F8F8F9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 110px;
+        padding: 64px 90px;
+    }
+    #convert-choose-3 button {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #convert-choose-3 form {
+        gap: 32px
+    }
+    #convert-choose-3 button {
+        min-width: 215px;
+    }
+    #convert-choose-3 form div {
+        flex-direction: column;
+        gap: 32px
+    }
+    #sendTo {
+        width: 100%;
+    }
+    #convert-choose-3 {
+        padding: 64px 40px;
+    }
+    #progress-converting .p-black-48-b {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #convert-choose-3 form {
+        gap: 32px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #convert-choose-3 form div {
+        flex-direction: column;
+        gap: 32px
+    }
+    #convert-choose-3 form select {
+        width: 300px;
+    }
+    #sendTo {
+        width: 100%;
+    }
+    #convert-container {
+        padding: 0 20px;
+    }
+}
+
+
+/*------------------------  Banner Start  -----------------------------*/
+
+#banner {
+    /* height: 320px; */
+    background: #F8F8F9;
+    width: 100%;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 17px 40px 0 80px;
+    gap: 55px;
+    overflow: hidden;
+}
+
+#banner .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 52px;
+}
+
+#banner div button {
+    margin-top: 16px;
+}
+
+#banner .right-side {
+    align-self: end;
+}
+
+@media only screen and (max-width: 1280px) {
+    #banner .right-side {
+        display: none;
+    }
+    #banner .left-side {
+        margin: 0;
+        padding: 0;
+    }
+    #banner {
+        padding: 32px;
+        gap: 0;
+    }
+}
+
+
+/*------------------------  Banner end  -----------------------------*/
+
+.double-title {
+    text-align: center;
+    display: grid;
+    gap: 24px
+}
+
+.marg-80 {
+    margin-top: 80px;
+}
+
+
+/* -------------------------  testimonials  ---------------------------- */
+
+
+/*-------------------  Why choose us start  ---------------------*/
+
+#section_2 {
+    margin-top: 120px;
+    display: grid;
+}
+
+#reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 125px;
+    row-gap: 52px;
+    margin-top: 52px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #reasons {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 52px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #reasons {
+        grid-template-columns: 1fr;
+        column-gap: 52px;
+    }
+}
+
+#reasons div {
+    display: grid;
+    align-content: flex-start;
+    gap: 16px
+}
+
+#reasons img {
+    margin-bottom: 8px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/*-------------------  Why choose us end  ---------------------*/
+
+
+/*-------------------  How it works start  ----------------------*/
+
+#section_3 {
+    margin-top: 120px;
+}
+
+#explain {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 52px
+}
+
+@media only screen and (max-width: 1100px) {
+    #explain {
+        grid-template-columns: 1fr;
+    }
+}
+
+#explain div {
+    padding: 32px 24px;
+    gap: 16px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    border: 1px dashed rgba(6, 35, 54, 0.3);
+    border-radius: 6px;
+    /* background-image: url(../imgs/boder.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+#explain div img {
+    margin-bottom: 8px;
+    ;
+}
+
+
+/*-----------------  How it works end  ---------------------------*/
+
+
+/*------------------  Testimonials Start -------------------------*/
+
+#section_4 {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 120px;
+    ;
+}
+
+.scrollHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrollHeading div {
+    display: flex;
+    gap: 12px
+}
+
+#testimonials {
+    display: flex;
+    gap: 24px;
+    margin-top: 52px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #testimonials {
+        flex-direction: column;
+    }
+}
+
+.testimonial {
+    padding: 32px 52px;
+    background: #F8F8F9;
+    border-radius: 6px;
+    display: grid;
+    gap: 16px
+}
+
+.profile {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.name {
+    display: grid;
+    gap: 8px;
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px
+}
+
+.stars img {
+    width: 19px;
+    height: 19px;
+}
+
+
+/*-----------------------  Testimonials end  -------------------------*/
+
+.p-grey-16-b {
+    
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* #697B86 */
+
+    color: #697B86;
+
+}

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="left-side">
+                <a href="index.html"><img src="imgs/logo.svg" alt="Pdfify"></a>
+                <nav>
+                    <li>
+                        <a href="index.html" class="selected">Home</a>
+                    </li>
+                    <li>
+                        <a href="howitworks.html">How it works</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="right-side">
+                <a href="login.html"> <button class="btn-header">Sign in</button></a>
+            </div>
+
+            <div class="mobile-design">
+                <img src="imgs/menu_alt.svg" alt="Menu" onclick="showHeaderMenu()">
+            </div>
+
+            <div class="mobile-design-menu-popup">
+                <div class="mobile-header">
+                    <div class="mobile-left-side">
+                        <a href="/index.html"><img src="imgs/logo.svg" alt="Pdfify"></a>
+                    </div>
+
+                    <div class="mobile-right-side">
+                        <img src="imgs/close_small.svg" alt="Menu" onclick="closeHeaderMenu()">
+                    </div>
+                </div>
+
+                <div class="mobile-menu-container">
+                    <nav>
+                        <li>
+                            <a href="index.html" class="selected">Home</a>
+                        </li>
+                        <li>
+                            <a href="howitworks.html">How it works</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </nav>
+
+                    <a href="./login.html"><button class="btn-secondary">
+                        Sign in
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="section-header container">
+        <div class="left-side">
+            <h1>PDF made easier.</h1>
+            <p class="p-grey-18">Document guru, pdfify is ready to help you convert any document in any format you want!
+            </p>
+            <div class="buttons-container">
+                <a href="./convert-2.html"><button class="btn-primary">Convert now!</button></a>
+                <a href="./tools.html"><button class="btn-secondary">Explore PDF Tools</button></a>
+            </div>
+        </div>
+        <div class="right-side">
+            <img src="imgs/pic-1.svg" alt="Ill1">
+        </div>
+    </div>
+
+
+
+
+    <div class="section-counter">
+        <div class="container section-counter-container">
+
+            <div class="counter-1">
+
+                <div class="row">
+
+                    <span id="decor">
+                        4&nbsp;33
+                    </span>
+                    <span>
+                        <div id="acw_example6_1" class="counter">0</div>
+                    </span>
+                    <span>
+                        <div id="acw_example6_2" class="counter">0</div>
+                    </span>
+                    <span>
+                        <div id="acw_example6_3" class="counter">0</div>
+                    </span>
+                    <span>
+                        <div id="acw_example6_4" class="counter">0</div>
+                    </span>
+                </div>
+
+                <p class="p-blue-18">Converted today</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="section_1">
+
+        <div class="title">
+            <p class="p-dark-36">Popular PDF tools</p>
+            <p class="p-grey-18">All the tools you need to work with documents. Try it today!</p>
+        </div>
+        <div class="tools">
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/doc.svg" alt="">
+                <div>
+                    <p class="p-dark-18">Word to PDF</p>
+                    <p class="p-grey-16">Contert your pdf files to word documents</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/xls.svg" alt="">
+                <div>
+                    <p class="p-dark-18">Excel to PDF</p>
+                    <p class="p-grey-16">Contert your pdf files to Excel sheets</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/jpg.svg" alt="">
+                <div>
+                    <p class="p-dark-18">JPG to PDF</p>
+                    <p class="p-grey-16">Contert your pdf files to JPG images</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/epub.svg" alt="">
+                <div>
+                    <p class="p-dark-18">EPUB to PDF</p>
+                    <p class="p-grey-16">Merge multiple pdf documents into one</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/ppt.svg" alt="">
+                <div>
+                    <p class="p-dark-18">PPT to PDF</p>
+                    <p class="p-grey-16">Contert your pdf files to word documents</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/pdf.svg" alt="">
+                <div>
+                    <p class="p-dark-18">PDF to Excel</p>
+                    <p class="p-grey-16">Contert your pdf files to Excel sheets</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/pdf.svg" alt="">
+                <div>
+                    <p class="p-dark-18">PDF to JPG</p>
+                    <p class="p-grey-16">Contert your pdf files to JPG images</p>
+                </div>
+            </div>
+
+            <div class="toolCard">
+                <img src="imgs/converter-icons/pdf.svg" alt="">
+                <div>
+                    <p class="p-dark-18">PDF to PPT</p>
+                    <p class="p-grey-16">Merge multiple pdf documents into one</p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="tools.html"> <button class="btn-primary">
+            see all tools
+        </button></a>
+
+    </div>
+
+    <div class="container" id="section_2">
+
+        <div class="title">
+            <p class="p-dark-36">Why choose us?</p>
+            <p class="p-grey-18">Here are few from many reasons why you should trust us.</p>
+        </div>
+        <div id="reasons">
+            <div class="resonCard">
+                <img src="imgs/pic-01.png" alt="">
+                <p class="p-dark-24-b">Many conversion types</p>
+                <p class="p-grey-18">We have up to 25,000 different conversions. Whether converting video, music, photos or any other type of documents.</p>
+            </div>
+            <div class="resonCard">
+                <img src="imgs/pic-02.png" alt="">
+                <p class="p-dark-24-b">Unlimited Conversions</p>
+                <p class="p-grey-18">Convert as many files as you want! We don’t have any limitation.</p>
+            </div>
+            <div class="resonCard">
+                <img src="imgs/pic-03.png" alt="">
+                <p class="p-dark-24-b">Accessible to all devices</p>
+                <p class="p-grey-18">Our platform is accessible to all possible platforms from dasktop to mobile screens, you can use pdfify everywhere!</p>
+            </div>
+            <div class="resonCard">
+                <img src="imgs/pic-04.png" alt="">
+                <p class="p-dark-24-b">100% Secure platform</p>
+                <p class="p-grey-18">All files downloaded and converted from our website are stored in a 100% secure and confidential database.</p>
+            </div>
+            <div class="resonCard">
+                <img src="imgs/pic-05.png" alt="">
+                <p class="p-dark-24-b">10GB Cloud Storage</p>
+                <p class="p-grey-18">Take advantage of 10GB cloud storage space to store your converted documents and access them from a simple internal connection.</p>
+            </div>
+            <div class="resonCard">
+                <img src="imgs/pic-06.png" alt="">
+                <p class="p-dark-24-b">24/7 Costumer service</p>
+                <p class="p-grey-18">We will answer your questions and assist you in managing your subscription by e-mail, chat or phone.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" id="section_3">
+
+        <div class="title">
+            <p class="p-dark-36">How does it works?</p>
+            <p class="p-grey-18">It's very simple!</p>
+
+        </div>
+
+        <div id="explain">
+
+            <div>
+                <img src="imgs/pic-11.png" alt="">
+                <p class="p-dark-24-b">Choose Converting Type</p>
+                <p class="p-grey-18">Choose the type you want your documents to be converted as</p>
+            </div>
+            <div>
+                <img src="imgs/upload-desired.svg" alt="">
+                <p class="p-dark-24-b">Upload desired document</p>
+                <p class="p-grey-18">Upload any type of document you want to convert</p>
+            </div>
+            <div>
+                <img src="imgs/pic-13.png" alt="">
+                <p class="p-dark-24-b">Download, have fun!</p>
+                <p class="p-grey-18">It’s just this easy! You can download your files and use it your way.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="section_4">
+
+        <div class="scrollHeading">
+            <p class="p-dark-36">Testimonials</p>
+            <div>
+                <img class="scroll-arrows" src="imgs/arrow-left.svg" alt="Scroll Left" onclick="testimonialsScrollLeft();">
+                <img class="scroll-arrows" src="imgs/arrow-right.svg" alt="Scroll Right" onclick="testimonialsScrollRight();">
+            </div>
+        </div>
+
+        <div class="testimonials-outside-container">
+            <div class="testimonials" id="testimonials-1">
+
+                <div class="testimonial">
+                    <div class="profile">
+                        <img src="imgs/pic-21.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Eddie Lake</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <p class="p-grey-18">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.</p>
+                </div>
+                <div class="testimonial">
+
+                    <div class="profile">
+                        <img src="imgs/pic-22.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Kenneth Allen</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-grey-18">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                </div>
+
+            </div>
+            <div class="testimonials" id="testimonials-2">
+
+                <div class="testimonial">
+                    <div class="profile">
+                        <img src="imgs/userimg1.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Eddie Lake</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <p class="p-grey-18">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.</p>
+                </div>
+                <div class="testimonial">
+
+                    <div class="profile">
+                        <img src="imgs/userimg2.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Kenneth Allen</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-grey-18">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                </div>
+
+            </div>
+            <div class="testimonials" id="testimonials-3">
+
+                <div class="testimonial">
+                    <div class="profile">
+                        <img src="imgs/userimg3.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Eddie Lake</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <p class="p-grey-18">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.</p>
+                </div>
+                <div class="testimonial">
+
+                    <div class="profile">
+                        <img src="imgs/userimg4.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Kenneth Allen</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-grey-18">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                </div>
+
+            </div>
+            <div class="testimonials" id="testimonials-4">
+
+                <div class="testimonial">
+                    <div class="profile">
+                        <img src="imgs/userimg5.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Eddie Lake</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <p class="p-grey-18">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.</p>
+                </div>
+                <div class="testimonial">
+
+                    <div class="profile">
+                        <img src="imgs/userimg6.png" alt="">
+                        <div class="name">
+                            <p class="p-dark-24">Kenneth Allen</p>
+                            <div class="stars">
+                                <img src="imgs/Star.svg" alt="">
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                                <img src="imgs/Star.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-grey-18">Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container" id="section_5">
+
+        <div id="priceCard">
+            <div id="pricingHead">
+                <span>
+                    <p class="p-dark-36">$29.40 </p>
+                    <p class="p-dark-18">/mo</p>
+                </span>
+                <p id="greenTxt">2 days freetrial included</p>
+            </div>
+            <div id="pricingExp">
+                <img src="imgs/clock.svg" alt="">
+                <p class="p-grey-12">At the end of the 48 hours and without termination on your part, the offer will be automatically renewed as a subscription without commitment of duration at the rate of 29.40€ Tax.incl per month.</p>
+            </div>
+            <ul id="trialOffers">
+
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Over 300 different file formats.</p>
+                </li>
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Convert one or more files at a time.</p>
+                </li>
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Termination at any time without proof.</p>
+                </li>
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Very heavy documents are taken care of.</p>
+                </li>
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Unlimited conversions</p>
+                </li>
+                <li>
+                    <img src="imgs/check.png" alt="">
+                    <p class="p-dark-14">Store your converted files in the cloud.</p>
+                </li>
+
+            </ul>
+            <div id="pricingBtn">
+                <a href="payment.html"> <button class="btn-primary">
+                    Start free trial
+                </button></a>
+            </div>
+        </div>
+        <div id="pricingTxt">
+            <p class="p-black-64">Pricing</p>
+            <p class="p-grey-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare magna non lorem est aenean. Aliquam, morbi quis dignissim et. Bibendum ultrices egestas auctor viverra justo. Pellentesque ut tincidunt tincidunt urna suspendisse ipsum congue
+                condimentum. Nunc tincidunt elementum interdum accumsan iaculis odio eget habitasse.</p>
+
+            <ul id="pricingList">
+                <li>
+                    <img src="imgs/medal.svg" alt="">
+                    <p class="p-dark-24">Termination at any time without proof</p>
+                </li>
+                <li>
+                    <img src="imgs/medal.svg" alt="">
+                    <p class="p-dark-24">No minimum term commitment</p>
+                </li>
+                <li>
+                    <img src="imgs/medal.svg" alt="">
+                    <p class="p-dark-24">Advisors available 6/7 days</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div id="banner">
+
+            <div class="left-side">
+                <p class="p-black-48">Try pdfify for free!</p>
+                <p class="p-black-18">Start your 7-day free trial and get unlimited access to all Smallpdf tools to convert, compress, e-sign, and more.</p>
+
+                <span>
+                 <a href="convert-2.html">     <button class="btn-primary">Convert Now!</button></a>
+                </span>
+            </div>
+
+            <img src="imgs/docs.png" alt="Try Pdfify!" class="right-side">
+
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div id="footerContent">
+            <div id="footerTop">
+
+                <div class="footerList">
+                    <p class="p-dark-18">Split & Compress</p>
+                    <ul>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">Compress PDF</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">Split PDF</p>
+                        </li>
+                      
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <p class="p-dark-18">Convert</p>
+                    <ul>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF converter</p>
+                        </li>
+                       
+                    
+                    </ul>
+                </div>
+
+                <div class="footerList">
+                    <p class="p-dark-18">Convert from PDF</p>
+                    <ul>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF to Word</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF to Excel</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF to PPT</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF to JPG</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/pdf.svg" alt="PDF">
+                            <p class="p-dark-16">PDF to EPUB</p>
+                        </li>
+                    </ul>
+                </div>
+
+           
+                <div class="footerList">
+                    <p class="p-dark-18">Convert to PDF</p>
+                    <ul>
+                        <li>
+                            <img src="imgs/converter-icons/doc.svg" alt="Word">
+                            <p class="p-dark-16">Word to PDF</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/xls.svg" alt="Excel">
+                            <p class="p-dark-16">Excel to PDF</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/ppt.svg" alt="PPT">
+                            <p class="p-dark-16">PPT to PDF</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/jpg.svg" alt="JPG">
+                            <p class="p-dark-16">JPG to PDF</p>
+                        </li>
+                        <li>
+                            <img src="imgs/converter-icons/epub.svg" alt="EPUB">
+                            <p class="p-dark-16">EPUB to PDF</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="footerRegular">
+
+                <div id="footerLogo">
+                    <span>
+                      <a href="index.html"> <img src="imgs/logo.svg" alt="Pdfify"></a> 
+                    </span>
+                </div>
+
+                <div id="regularContent">
+
+                    <div>
+                        <p class="p-dark-18">Page</p>
+                        <ul>
+
+
+                            <a href="index.html" class="p-grey-16">Home</a>
+                            <a href="howitworks.html" class="p-grey-16">How it works</a>
+                            <a href="payment.html" class="p-grey-16">Pricing</a>
+                            <a href="login.html" class="p-grey-16">Subscription</a>
+
+                        </ul>
+
+                    </div>
+                    <div>
+                        <p class="p-dark-18">Need help?</p>
+                        <ul>
+
+                            <a href="login.html" class="p-grey-16">  Log in</a>
+                            <a href="signup.html" class="p-grey-16">  Sign up</a>
+                            <a href="contact.html" class="p-grey-16">    Contact us</a>
+                            <a href="convert-2.html" class="p-grey-16">    Convert a file</a>
+                            <a href="login.html" class="p-grey-16">     Unsubscribe </a>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="p-dark-18">Social media</p>
+
+                        <span id="social">
+                            <a href="#"> <img src="imgs/youtube.svg" alt="" class="socialGrey"></a>
+                            <img src="imgs/c-youtube.svg" alt="" class="coloredSocial">
+
+
+                            <a href="#"> <img src="imgs/facebook.svg" alt="" class="socialGrey"></a>
+                            <img src="imgs/c-facebook.svg" alt="" class="coloredSocial">
+
+                            <a href="#"> <img src="imgs/twitter.png" alt="" class="socialGrey"> </a>
+                            <img src="imgs/c-twitter.svg" alt="" class="coloredSocial">
+
+                            <a href="#"> <img src="imgs/instagram.png" alt="" class="socialGrey"></a>
+                            <img src="imgs/c-instagram.svg" alt="" class="coloredSocial">
+
+                        </span>
+                        <p class="p-dark-18">Contact</p>
+                        <span class="contact">
+                            <img src="imgs/phone.svg" alt="">
+                            <p class="p-dark-16">(+23) 234 1294 1029</p>
+                        </span>
+                        <span class="contact">
+                            <img src="imgs/mail.svg" alt="">
+                            <p class="p-dark-16">info@pdfify.com</p>
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="footerFloor">
+            <div id="floor">
+                <p class="p-white-16">Copyright © 2021 pdfify - made with ❤️ for you.</p>
+
+                <span>
+                    <a href="privacy.html">Terms & Conditions</a>
+                    <a href="privacy.html">Legal notice</a>
+                    <a href="privacy.html">Cookie policy</a>
+                    <a href="privacy.html">Personal data</a>
+                    <a href="privacy.html">Guarantees</a>
+                </span>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="js/general.js"></script>
+
+    <script src="js/counter.js">
+    </script>
+
+
+
+
+    </script>
+</body>
+
+</html>
